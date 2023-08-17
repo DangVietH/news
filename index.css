@@ -1,0 +1,42 @@
+body {
+    background-color: floralwhite;
+    font-family: nyt-cheltenham, georgia, 'Times New Roman', Times, serif;
+}
+
+.newspage {
+    display: flex;
+    height: auto;
+    gap: 8px
+}
+
+.newspage div {
+    text-align: left;
+    height: auto;
+    width: 200px;
+}
+
+.newspage .front-news{
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding: 2%;
+    font-size: 150%;
+}
+
+.front-image {
+    width: 900px;
+    height: 600px;
+}
+
+.newspage .side-news {
+    flex-grow: 0.2;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.newspage .side-news .side-page {
+    width: 350px;
+    height: 200px;
+    padding: 2%;
+    flex: 1;
+}
